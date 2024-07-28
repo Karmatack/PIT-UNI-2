@@ -7,28 +7,20 @@ Puedes acceder a la versión web de estos materiales [aquí](https://pit-uni.ver
 ## Cursos Incluidos
 
 1. **Ciencia de Datos 1**
-   - Materiales, ejercicios y recursos del curso de Ciencia de Datos 1.
 
 2. **Ciencia de Datos 2**
-   - Materiales, ejercicios y recursos del curso de Ciencia de Datos 2.
 
 3. **Cloud Computing AWS-Azure-Google Cloud**
-   - Documentación y ejemplos prácticos sobre los servicios de Cloud Computing ofrecidos por AWS, Azure y Google Cloud.
 
 4. **Deep Learning**
-   - Materiales del curso de Deep Learning, incluyendo sesiones, presentaciones y proyectos.
 
 5. **Machine Learning**
-   - Recursos y proyectos del curso de Machine Learning.
 
 6. **PowerBI - Básico**
-   - Materiales y prácticas del curso básico de PowerBI.
 
 7. **PowerBI - Intermedio**
-   - Materiales y prácticas del curso intermedio de PowerBI.
 
 8. **Ciberseguridad - Ethical Hacking**
-   - Recursos, guías y ejercicios del curso de Ciberseguridad y Ethical Hacking.
 
 ## Uso
 

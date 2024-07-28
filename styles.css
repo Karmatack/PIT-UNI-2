@@ -57,12 +57,46 @@ main {
     margin-bottom: 20px;
 }
 
+.left-filters {
+    display: flex;
+    gap: 10px;
+}
+
 .filters select,
 .filters input {
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.about-button {
+    padding: 10px 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    background-color: #a00000;
+}
+
+.hidden {
+    display: none;
+}
+
+#about-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#about-section h2 {
+    margin-top: 0;
 }
 
 .course-cards {
@@ -102,4 +136,3 @@ main {
 .card p {
     margin: 0;
 }
-

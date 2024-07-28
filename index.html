@@ -14,68 +14,63 @@
         <section class="courses">
             <h1>Cursos</h1>
             <div class="filters">
-                <select>
-                    <option>Todos</option>
-                </select>
-                <input type="text" placeholder="Buscar">
-                <select>
-                    <option>Tarjeta</option>
-                    <option>Lista</option>
-                </select>
-            </div>
-            
-            <div class="course-cards">
+                <div class="left-filters">
+                    <select>
+                        <option>Todos</option>
+                    </select>
+                    <input type="text" placeholder="Buscar">
 
+                </div>
+                <button class="about-button" onclick="toggleAboutSection()">Acerca de</button>
+            </div>
+
+            <div id="about-section" class="hidden">
+            </div>
+
+            <div class="course-cards">
                 <a href="./Cursos/PIT107 Ciencia de Datos 1/index.html" class="card">
                     <img src="./Cursos/PIT107 Ciencia de Datos 1/img/banner.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT107 Ciencia de Datos 1</h2>
                     <p>PIT107 Ciencia de Datos 1<br>PIT 2024 1ra Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT108 Ciencia de Datos 2/index.html" class="card">
                     <img src="./Cursos/PIT108 Ciencia de Datos 2/img/4Ciencia de datos2.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT108 Ciencia de Datos 2</h2>
                     <p>PIT108 Ciencia de Datos 2<br>PIT 2024 1ra Edición</p>
                 </a>
-                
                 <a href="./Cursos/PIT109 Cloud Computing AWS - Azure - Google Cloud/index.html" class="card">
                     <img src="./Cursos/PIT109 Cloud Computing AWS - Azure - Google Cloud/img/5Cloud Computing.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT109 Cloud Computing: AWS - Azure - Google Cloud</h2>
                     <p>PIT109 Cloud Computing: AWS - Azure - Google Cloud<br>PIT 2024 1da Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT110 Deep Learning con Python/index.html" class="card">
                     <img src="./Cursos/PIT110 Deep Learning con Python/img/DEEP LEARNING PYTHON.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT110 Deep Learning con Python</h2>
                     <p>PIT110 Deep Learning con Python<br>PIT 2024 1da Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT118 Machine Learning con Python/index.html" class="card">
                     <img src="./Cursos/PIT118 Machine Learning con Python/img/MACHINE LEARNING PYTHON.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT118 Machine Learning con Python</h2>
                     <p>PIT118 Machine Learning con Python<br>PIT 2024 1da Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT119 Power BI/index.html" class="card">
                     <img src="./Cursos/PIT119 Power BI/img/PowerBI01.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT119 Power BI</h2>
                     <p>PIT119 Power BI<br>PIT 2024 1da Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT120 Power BI - Intermedio/" class="card">
                     <img src="./Cursos/PIT120 Power BI - Intermedio/img/POWER BI INTERMEDIO.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT120 Power BI Intermedio</h2>
                     <p>PIT120 Power BI Intermedio<br>PIT 2024 1da Edición</p>
                 </a>
-
                 <a href="./Cursos/PIT152 Ciberseguridad Ethical Hacking/index.html" class="card">
                     <img src="./Cursos/PIT152 Ciberseguridad Ethical Hacking/img/BANERPIT.png" alt="Ciberseguridad: Ethical Hacking">
                     <h2>PIT152 Ciberseguridad: Ethical Hacking</h2>
                     <p>PIT152 Ciberseguridad: Ethical Hacking<br>PIT 2024 2da Edición</p>
                 </a>
-                
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
