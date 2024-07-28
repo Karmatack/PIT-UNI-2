@@ -66,16 +66,33 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #800000;
     display: block;
     margin: 5px 0;
 }
 
 a:hover {
-    color: #45a049;
+    color: #800000;
 }
 .download-button {
-    font-size: 1em; 
-    padding: 3px 6px; 
-    margin: 3px 0; 
+    font-size: 1em;
+    padding: 3px 6px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #800000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #800000;
+    transform: scale(1.05);
+}
+
+.download-button:active {
+    background-color: #800000;
+    transform: scale(0.98);
 }
