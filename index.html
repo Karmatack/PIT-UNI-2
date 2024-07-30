@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Cursos</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
                     <select>
                         <option>Todos</option>
                     </select>
-                    <input type="text" placeholder="Buscar">
+                    <input type="text" placeholder="Buscar" id="buscador_filtro">
 
                 </div>
                 <button class="about-button" onclick="toggleAboutSection()">Acerca de</button>
@@ -68,6 +70,20 @@
                     <h2>PIT152 Ciberseguridad: Ethical Hacking</h2>
                     <p>PIT152 Ciberseguridad: Ethical Hacking<br>PIT 2024 2da Edición</p>
                 </a>
+                <a href="./Cursos/PIT148 SQL - Base de Datos 1/index.html" class="card">
+                    <img src="./Cursos/PIT148 SQL - Base de Datos 1/img/BANERPIT_SQL.png" alt="Base de Datos 1: SQL">
+                    <h2>PIT148 SQL - Base de Datos 1</h2>
+                    <p>PIT148 SQL - Base de Datos 1<br>PIT 2024 2da Edición</p>
+                </a>
+                <a href="./Cursos/PIT134 Cloud Computing AWS - Azure - Google Cloud/index.html" class="card">
+                    <img src="./Cursos/PIT134 Cloud Computing AWS - Azure - Google Cloud/img/77BANERPIT.png" alt="Cloud Computing: AWS-Azure">
+                    <h2>PIT109 Cloud Computing: AWS - Azure - Google Cloud</h2>
+                    <p>PIT109 Cloud Computing: AWS - Azure - Google Cloud<br>PIT 2024 2da Edición</p>
+                </a>
+            </div>
+            <div id="no-courses" class="alert-danger hidden">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                <strong>Error!</strong> Curso no encontrado
             </div>
         </section>
     </main>

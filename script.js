@@ -31,3 +31,32 @@ function toggleAboutSection() {
     const aboutSection = document.getElementById('about-section');
     aboutSection.classList.toggle('hidden');
 }
+
+
+/* Buscador de Cursos */
+
+   $(document).ready(function() {
+            $('#buscador_filtro').on('input', function() {
+                let filter = $(this).val().toLowerCase();
+                let found = false;
+                
+                $('.course-cards .card').each(function() {
+                    let courseTitle = $(this).find('h2').text().toLowerCase();
+                    let courseDescription = $(this).find('p').text().toLowerCase();
+                    
+                    if (courseTitle.includes(filter) || courseDescription.includes(filter)) {
+                        $(this).show();
+                        found = true;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+                
+                if (!found) {
+                    $('#no-courses').show();
+                } else {
+                    $('#no-courses').hide();
+                }
+            });
+        });
+        
