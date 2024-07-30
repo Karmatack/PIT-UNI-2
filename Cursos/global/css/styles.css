@@ -17,9 +17,16 @@ header {
     text-align: center;
 }
 
-
 #logo {
-    max-width: 150px;
+    max-width: 150px; /* Mantiene el ancho máximo */
+    height: auto; /* Mantén la proporción de la imagen */
+    transition: all 0.3s ease-in-out; /* Suaviza la transición */
+}
+
+/* Estilos cuando el cursor está sobre el logo */
+#logo:hover {
+    filter: brightness(1.2) drop-shadow(0 0 15px rgba(106, 255, 0, 0.7)); /* Aumenta el brillo de la imagen y añade sombra */
+    transform: scale(1.1) rotate(3deg); /* Aumenta ligeramente el tamaño y rota un poco */
 }
 
 main {
