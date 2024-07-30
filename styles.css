@@ -105,7 +105,6 @@ main {
     gap: 30px;
     justify-content: center;
 }
-
 .card {
     background-color: white;
     padding: 20px;
@@ -116,23 +115,39 @@ main {
     text-align: center;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.2s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para transformación y sombra */
+    overflow: hidden; /* Para manejar contenido desbordado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px); /* Mueve la tarjeta hacia arriba */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda en hover */
 }
 
 .card img {
     width: 100%;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+    transition: transform 0.3s ease; /* Transición para la imagen */
 }
 
 .card h2 {
     margin: 10px 0;
+    font-size: 1.5em; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
 }
 
 .card p {
     margin: 0;
+    font-size: 1em; /* Tamaño de fuente del párrafo */
+    color: #666; /* Color del texto del párrafo */
 }
+
+/* Efecto hover para la imagen */
+.card:hover img {
+    transform: scale(1.05); /* Escala la imagen ligeramente */
+}
+
