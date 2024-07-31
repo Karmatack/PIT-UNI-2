@@ -31,3 +31,29 @@ function toggleAboutSection() {
     const aboutSection = document.getElementById('about-section');
     aboutSection.classList.toggle('hidden');
 }
+
+document.getElementById('search-input').addEventListener('input', function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll('.course-cards .card');
+    let noCoursesDiv = document.getElementById('no-courses');
+    let anyVisible = false;
+
+    cards.forEach(function(card) {
+        let title = card.querySelector('h2').innerText.toLowerCase();
+        let description = card.querySelector('p').innerText.toLowerCase();
+
+        if (title.includes(filter) || description.includes(filter)) {
+            card.style.display = "";
+            anyVisible = true;
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    if (anyVisible) {
+        noCoursesDiv.style.display = "none";
+    } else {
+        noCoursesDiv.style.display = "block";
+    }
+});
+

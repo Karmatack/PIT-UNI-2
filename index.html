@@ -18,13 +18,18 @@
                     <select>
                         <option>Todos</option>
                     </select>
-                    <input type="text" placeholder="Buscar">
+                    <input type="text" id="search-input" placeholder="Buscar">
 
                 </div>
                 <button class="about-button" onclick="toggleAboutSection()">Acerca de</button>
             </div>
 
-            <div id="about-section" class="hidden">
+            <div id="about-section" class="hidden"> <!-- Js -->
+            </div>
+
+            <div id="no-courses" class="alert-danger hidden">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                <strong>Error!</strong> Curso no encontrado
             </div>
 
             <div class="course-cards">
