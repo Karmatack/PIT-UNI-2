@@ -2,7 +2,7 @@
 
 Este repositorio contiene los materiales de los cursos que he llevado en la universidad. Lo he creado para tener fácil acceso a los recursos y para compartirlos con quienes los necesiten.
 
-Puedes acceder a la versión web de estos materiales [aquí](https://repo-cursos.vercel.app).
+Puedes acceder a la versión web de estos materiales <a href="https://repo-cursos.vercel.app" target="_blank">aquí</a>.
 
 ## Cursos Incluidos
 
